@@ -1,0 +1,8 @@
+.classpath
+.project
+.settings
+bin/
+.settings
+.DS_Store
+.vscode
+settings.json
