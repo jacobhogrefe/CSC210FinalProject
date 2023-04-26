@@ -1,0 +1,11 @@
+Multiplexer Choice Indications
+------------------------------
+Program Counter:
+00 - Jump or Halt operation
+01 - Standard Operation 
+10 - Skips next instruction based on condition
+
+Accumulator: 
+00 - Input data
+01 - Ram output
+10 - ALU output
