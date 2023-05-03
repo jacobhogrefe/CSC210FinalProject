@@ -10,12 +10,17 @@ Accumulator:
 01 - Ram output
 10 - ALU output
 
-Op Code 8 Bit Output:
-000 - 01011000 - 58
-001 - 01011010 - 5a
-010 - 01010001 - 51
-011 - 01011100 - 5c
-100 - 11011100 - DC
-101 - 01000000 - 40
-110 - 
-111 - 00000000 - 0
+Op Code 8 Bit Output
+--------------------
+000 - 0 1 01 1 00 0 - 58
+001 - 0 1 01 1 01 0 - 5a
+010 - 0 1 01 0 00 1 - 51
+011 - 0 1 01 1 10 0 - 5c
+100 - 1 1 01 1 10 0 - DC
+101 - 0 1 00 0 00 0 - 40
+110 - SKIP OPERATION
+111 - 0 0 00 0 00 0 - 0
+
+For SKIP Operation
+------------------
+3 different outputs based on the condition outlined in the document
